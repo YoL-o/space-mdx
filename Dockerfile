@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Clone the repo
-RUN git clone https://github.com/Dark-Xploit/SPACE-MD.git /app
+RUN git clone https://github.com/YoL-o/SPACE-MD.git /app
 
 WORKDIR /app
 
